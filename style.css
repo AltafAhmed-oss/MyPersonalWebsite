@@ -567,6 +567,49 @@ span{
 .social a:hover{
     color: orange;
 }
+/* تنسيقات خاصة للجوال */
+@media (max-width: 768px) {
+
+  .detel {
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .detel h1 {
+    font-size: 32px;
+  }
+
+  .detel p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 10px;
+  }
+
+  .detel a {
+    font-size: 16px;
+  }
+
+  .social {
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .images {
+    position: absolute;
+    width: 70%;
+    height: auto;
+    margin-top: 20px;
+  }
+
+  .images img {
+    position: absolute;
+    transform: none;
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
